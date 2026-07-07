@@ -1,0 +1,62 @@
+partial alphanumeric_keys
+xkb_symbols "forkman" {
+
+    name[Group1]="Finnish (Workman)";
+
+    key <TLDE> { [  grave,           asciitilde,       section,               onehalf               ] };
+    key <AE01> { [  1,               exclam,           NoSymbol,              exclamdown            ] };
+    key <AE02> { [  2,               at,               at,                    rightdoublequotemark  ] };
+    key <AE03> { [  3,               numbersign,       sterling,              guillemotright        ] };
+    key <AE04> { [  4,               dollar,           dollar,                guillemotleft         ] };
+    key <AE05> { [  5,               percent,          permille,              leftdoublequotemark   ] };
+    key <AE06> { [  6,               asciicircum,      singlelowquotemark,    doublelowquotemark    ] };
+    key <AE07> { [  7,               ampersand,        braceleft,             NoSymbol              ] };
+    key <AE08> { [  8,               asterisk,         bracketleft,           less                  ] };
+    key <AE09> { [  9,               parenleft,        bracketright,          greater               ] };
+    key <AE10> { [  0,               parenright,       braceright,            degree                ] };
+    key <AE11> { [  minus,           underscore,       backslash,             questiondown          ] };
+    key <AE12> { [  equal,           plus,             dead_cedilla,          dead_ogonek           ] };
+
+    key <AD01> { [  q,               Q,                q,                     Q                     ] };
+    key <AD02> { [  d,               D,                eth,                   ETH                   ] };
+    key <AD03> { [  r,               R,                r,                     R                     ] };
+    key <AD04> { [  w,               W,                W,                     W                     ] };
+    key <AD05> { [  b,               B,                b,                     B                     ] };
+    key <AD06> { [  j,               J,                j,                     J                     ] };
+    key <AD07> { [  f,               F,                f,                     F                     ] };
+    key <AD08> { [  u,               U,                u,                     U                     ] };
+    key <AD09> { [  p,               P,                oe,                    OE                    ] };
+    key <AD10> { [  odiaeresis,      Odiaeresis,       semicolon,             colon                 ] };
+    key <AD11> { [  bracketleft,     braceleft,        aring,                 Aring                 ] };
+    key <AD12> { [  bracketright,    braceright,       dead_tilde,            dead_macron           ] };
+
+    key <AC01> { [  a,               A,                schwa,                 SCHWA                 ] };
+    key <AC02> { [  s,               S,                ssharp,                U1E9E                 ] };
+    key <AC03> { [  h,               H,                h,                     H                     ] };
+    key <AC04> { [  t,               T,                thorn,                 THORN                 ] };
+    key <AC05> { [  g,               G,                g,                     G                     ] };
+    key <AC06> { [  y,               Y,                y,                     Y                     ] };
+    key <AC07> { [  n,               N,                eng,                   ENG                   ] };
+    key <AC08> { [  e,               E,                EuroSign,              NoSymbol              ] };
+    key <AC09> { [  o,               O,                o,                     O                     ] };
+    key <AC10> { [  i,               I,                oslash,                Oslash                ] };
+    key <AC11> { [  adiaeresis,      Adiaeresis,       apostrophe,            quotedbl              ] };
+    key <BKSL> { [  backslash,       bar,              dead_caron,            dead_breve            ] };
+
+    key <LSGT> { [  less,            greater,          bar,                   NoSymbol              ] };
+    key <AB01> { [  z,               Z,                ezh,                   EZH                   ] };
+    key <AB02> { [  x,               X,                multiply,              periodcentered        ] };
+    key <AB03> { [  m,               M,                mu,                    emdash                ] };
+    key <AB04> { [  c,               C,                c,                     C                     ] };
+    key <AB05> { [  v,               V,                v,                     V                     ] };
+    key <AB06> { [  k,               K,                kra,                   NoSymbol              ] };
+    key <AB07> { [  l,               L,                l,                     L                     ] };
+    key <AB08> { [  comma,           less,             comma,                 less                  ] };
+    key <AB09> { [  period,          greater,          period,                greater               ] };
+    key <AB10> { [  slash,           question,         endash,                NoSymbol              ] };
+
+    key <SPCE> { [  space,           space,            space,                 U202F                 ] };
+
+    include "kpdl(comma)"
+    include "level3(ralt_switch)"
+};
